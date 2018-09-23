@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'News706 BT';
+    src: url('../fonts/News706BT-BoldC.eot');
+    src: url('../fonts/News706BT-BoldC.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/News706BT-BoldC.woff2') format('woff2'),
+        url('../fonts/News706BT-BoldC.woff') format('woff'),
+        url('../fonts/News706BT-BoldC.svg#News706BT-BoldC') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@white: #fff;
+@black: #000;
+
+@hover: #b01431;
+@main-menu-hover: #f5f3f3;
+@submit-hover: #dd415e;
+
+@titles: #323232;
+@headers: #555479;
+
+@form-input: #d0cece;
+@nines: #999;
+
+@footer-border: #19182e;
+@footer-title: #555479;
+@footer-color: #5b5b5b;
+
+.reset();
+
+input, button {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+a {
+    text-decoration: none;
+    color: @black;
+    transition: color .3s ease;
+}
+
+.title {
+    font-weight: 800;
+    font-style: italic;
+    color: @headers;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    background: @white;
+    padding: 0 40px;
+}
+
+.title__header {
+    margin-bottom: 20px;
+    
+    .title-wrap {
+        max-width: 1280px;
+        min-width: 290px;
+        margin: 0 auto;
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            height: 1px;
+            background: #d3d8de;
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+    }
+}
+
+.abs-vertical-center {
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.abs-horizontal-center {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+.bg-cover-center {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.triangle {
+    border-bottom: 15px solid @hover; 
+    border-top: 15px solid transparent; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent; 
+}
+
+.template-submit {
+    background: @hover;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    padding: 7px 0;
+    color: @white;
+    border: none;
+    border-radius: 20px;
+}
+
+.wrapper {
+    .wrapper();
+}
+
+.align-center {
+    text-align: center;
+}

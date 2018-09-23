@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>LFBros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i&amp;subset=cyrillic"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav>
+            <div class="wrapper">
+                <div class="main-menu-toggle"><i class="fa fa-bars"></i></div>
+                <ul class="menu-items">
+                    <li class="menu-items__item"><a href="#">Категория</a></li>
+                    <li class="menu-items__item">
+                        <a href="#">Категория</a>
+                        <ul class="submenu-items">
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-items__item">
+                        <a href="#">Категория</a>
+                        <ul class="submenu-items">
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-items__item"><a href="#">Категория</a></li>
+                    <li class="menu-items__item"><a href="#">Категория</a></li>
+                    <li class="menu-items__item">
+                        <a href="#">Категория</a>
+                        <ul class="submenu-items">
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-items__item"><a href="#">Категория</a></li>
+                    <li class="menu-items__item">
+                        <a href="#">Категория</a>
+                        <ul class="submenu-items">
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-items__item">
+                        <a href="#">Категория</a>
+                        <ul class="submenu-items">
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-items__item"><a href="#">Категория</a></li>
+                    <li class="menu-items__item">
+                        <a href="#">Категория</a>
+                        <ul class="submenu-items">
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                            <li class="submenu-items__item"><a href="#">Подкатегория</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="public">
+            <div class="wrapper">
+                <div class="logotype">
+                    <a href="#" class="logotype__text">LFBros</a>
+                </div>
+                <div class="call-us align-center">
+                    <p class="call-us__number"><i class="fa fa-phone"></i> +38 (098)1536953</p>
+                    <p class="call-us__number"><i class="fa fa-phone"></i> +38 (098)1536953</p>
+                </div>
+                <div class="actions">
+                    <div class="actions__profile">
+                        <i class="fa fa-user"></i>
+                        <div class="login-submenu">
+                            <div class="choose-form">
+                                <span class="choose-form__login" id="active">Вход</span>
+                                <span>/</span>
+                                <span class="choose-form__registration">Регистрация</span>
+                            </div>
+                            <form id="loginForm">
+                                <div class="form-group">
+                                    <input type="email" required placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" required placeholder="Login">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="submit" value="Отправить">
+                                </div>
+                            </form>
+                            <form id="registrationForm">
+                                <div class="form-group">
+                                    <input type="text" required placeholder="Login">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" required placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" required placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="submit" value="Отправить">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="actions__reload">
+                        <i class="fa fa-undo"></i>
+                    </div>
+                    <div class="actions__favourite">
+                        <i class="fa fa-heart"><span>0</span></i>
+                    </div>
+                    <div class="actions__cart">
+                        <i class="fa fa-shopping-cart"><span>10</span></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="slider">
+        <header class="slider__header">
+            <div class="slider-header-wrapper">
+                <ul class="nav-items">
+                    <li class="nav-items__item"><a href="#">Главная</a></li>
+                    <li class="nav-items__item"><a href="#">О нас</a></li>
+                    <li class="nav-items__item"><a href="#">Доставка и оплата</a></li>
+                    <li class="nav-items__item"><a href="#">Новости</a></li>
+                    <li class="nav-items__item"><a href="#">Отзывы</a></li>
+                    <li class="nav-items__item"><a href="#">Контакты</a></li>
+                </ul>
+                <div class="search">
+                    <form>
+                        <label><input type="text" placeholder="Что Вы хотите найти?"><i class="fa fa-search"></i></label>
+                    </form>
+                </div>
+                <div class="callback">
+                    <button class="submit">Заказать обратный звонок</button>
+                </div>
+            </div>
+        </header>
+        <img src="./img/slider-1.jpg" alt="slider-1" class="active">
+        <img src="./img/slider-2.jpg" alt="slider-2">
+        <img src="./img/slider-3.jpg" alt="slider-3">
+        <img src="./img/slider-4.jpg" alt="slider-4">
+        <div class="wrap">
+            <div class="navigation">
+                <ul class="circle-items">
+                </ul>
+            </div>
+            <div class="prev"><i class="fa fa-chevron-left"></i></div>
+            <div class="next"><i class="fa fa-chevron-right"></i></div>
+        </div>
+    </div>
+
+    <div class="bg-for-sections">
+        <section class="categories">
+            <header class="title__header align-center">
+                <div class="title-wrap">
+                    <div class="title">
+                        Категории товаров
+                    </div>
+                </div>
+            </header>
+            <div class="wrapper">
+                <ul class="categories-items">
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="categories-items__item">
+                        <h4 class="category-title">Категория</h4>
+                        <div class="category-group">
+                            <ul class="subcategories-items">
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item"><a href="#">Подкатегория</a></li>
+                                <li class="subcategories-item all"><a href="#">Смотреть все ></a></li>
+                            </ul>
+                            <div class="thumbnail">
+                                <img src="./img/thumbnail.png" alt="thumbnail">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="products-tabs">
+            <div class="wrapper">
+                <ul class="tabs">
+                    <li class="tabs__item" id="active" select-data="0">Новинки</li>
+                    <li class="tabs__divider">/</li>
+                    <li class="tabs__item" select-data="1">Рекомендуемые</li>
+                    <li class="tabs__divider">/</li>
+                    <li class="tabs__item" select-data="2">Популярные</li>
+                    <li class="tabs__divider">/</li>
+                    <li class="tabs__item" select-data="3">Акции</li>
+                    <span class="divider"></span>
+                    <li class="tabs__switch">
+                        <span id="prev-tab" class="disabled"><i class="fa fa-chevron-left"></i></span>
+                        <span id="next-tab"><i class="fa fa-chevron-right"></i></span>
+                    </li>
+                </ul>
+
+                <ul class="products-list" id="active">
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара</h4>
+                        <div class="product-price">
+                            <span class="prev-price">13 000 грн</span>
+                            <span class="discount-price">12 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара</h4>
+                        <div class="product-price">
+                            <span class="prev-price">13 000 грн</span>
+                            <span class="discount-price">12 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара</h4>
+                        <div class="product-price">
+                            <span class="prev-price">13 000 грн</span>
+                            <span class="discount-price">12 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара</h4>
+                        <div class="product-price">
+                            <span class="prev-price">13 000 грн</span>
+                            <span class="discount-price">12 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="products-list">
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 2</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 2</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 2</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 2</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="products-list">
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 3</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 3</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 3</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 3</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="products-list">
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 4</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 4</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 4</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                    <li class="products-list__product align-center">
+                        <div class="product-actions">
+                            <span><i class="fa fa-heart"></i></span>
+                            <span><i class="fa fa-undo"></i></span>
+                        </div>
+                        <div class="image">
+                            <img src="./img/products-list-1.jpg" alt="product">
+                        </div>
+                        <h4 class="product-title">Название товара 4</h4>
+                        <div class="product-price">
+                            <span class="prev-price">14 000 грн</span>
+                            <span class="discount-price">11 000 грн</span>
+                        </div>
+                        <div class="product-buy">
+                            <button class="submit">Купить</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="wrapper">
+                <header class="title__header align-center">
+                    <div class="title-wrap">
+                        <div class="title">
+                            О компании
+                        </div>
+                    </div>
+                </header>
+                <p class="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+                    dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus
+                    pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
+                    felis tellus mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                    viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                    mollis orci, sed rhoncus sapien nunc eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                    Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus
+                    sapien nunc</p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <ul class="footer-list">
+                <li class="footer-list__item">
+                    <ul>
+                        <li>
+                            <h3 class="list-title">/ Информация</h3>
+                        </li>
+                        <li class="link"><a href="#">О нас</a></li>
+                        <li class="link"><a href="#">Информация о доставке</a></li>
+                        <li class="link"><a href="#">Политика конфиденциальности</a></li>
+                        <li class="link"><a href="#">Правила и условия</a></li>
+                    </ul>
+                </li>
+                <li class="footer-list__item">
+                    <ul>
+                        <li>
+                            <h3 class="list-title">/ Служба поддержки</h3>
+                        </li>
+                        <li class="link"><a href="#">Контакты</a></li>
+                        <li class="link"><a href="#">Отзывы</a></li>
+                        <li class="link"><a href="#">Возврат товара</a></li>
+                        <li class="link"><a href="#">Карта сайта</a></li>
+                    </ul>
+                </li>
+                <li class="footer-list__item">
+                    <ul>
+                        <li>
+                            <h3 class="list-title">/ Личный кабинет</h3>
+                        </li>
+                        <li class="link"><a href="#">Личный кобинет</a></li>
+                        <li class="link"><a href="#">История заказов</a></li>
+                        <li class="link"><a href="#">Закладки</a></li>
+                        <li class="link"><a href="#">Рассылка</a></li>
+                    </ul>
+                </li>
+                <li class="footer-list__item">
+                    <ul>
+                        <li>
+                            <h3 class="list-title">/ Контакты</h3>
+                        </li>
+                        <li class="link"><p>0970935218</p></li>
+                        <li class="link"><p>0970935218</p></li>
+                        <li class="link"><p>0970935218</p></li>
+                        <li class="link"><p>mail@inlux.com.ua</p></li>
+                        <li class="footer-social">
+                            <!-- Я не смог подключить одноклассники -->
+                            <!-- <a href="#"><i class="fa fa-odnoklassniki"></i></a> -->
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-vk"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+    
+            <div class="rights">
+                <p class="left">&copy; LFBROS 2018. Все права защищены.</p>
+                <p class="right">Web Osnova - быстрое создание сайтов и продвижение</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/tabs.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
